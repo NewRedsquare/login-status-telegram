@@ -22,6 +22,10 @@ Finally, add `session optional pam_exec.so type=open_session seteuid /usr/local/
 
 Notice the flag `optional`, in case of failure of this script , the authentication will not be blocked. Change it if desired.
 
+
+For example :
+![telegram_exemple](https://github.com/NewRedsquare/login-status-telegram/blob/master/example.jpg)
+
 ### Todos
 
  - If there are issues :D
